@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+  margin: 0;
+}
+
+h1 {
+  margin: 20px 0;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+#array-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.bar {
+  margin: 0 2px;
+  background-color: #3498db;
+  width: 20px;
+  transition: all 0.2s ease;
+}
+
+.bar.active {
+  background-color: #e74c3c;
+}
