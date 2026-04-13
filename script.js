@@ -7,7 +7,7 @@ const speedInput = document.getElementById('speed');
 let array = [];
 let speed = 250;
 
-// Generate a random array
+//  to generate a random array using rnadon function in js
 function generateArray(size = 30) {
   array = [];
   arrayContainer.innerHTML = '';
@@ -21,12 +21,12 @@ function generateArray(size = 30) {
   }
 }
 
-// Sleep function for animation
+// to get animation used sleep funtion to take break time 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-// Swap function for bars
+// to change bars ie. to swap the bars
 async function swap(i, j) {
   const bars = document.querySelectorAll('.bar');
   bars[i].style.height = `${array[j]}px`;
@@ -149,5 +149,5 @@ sortBtn.addEventListener('click', async () => {
   }
 });
 
-// Initial array
+// to generate array
 generateArray();
