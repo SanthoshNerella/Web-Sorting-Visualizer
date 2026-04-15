@@ -5,7 +5,7 @@ const algorithmSelect = document.getElementById('algorithm');
 const speedInput = document.getElementById('speed');
 
 let array = [];
-let speed = 250;
+let speed = 2500;
 
 //  to generate a random array using rnadon function in js
 function generateArray(size = 30) {
